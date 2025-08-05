@@ -1,7 +1,7 @@
 ## TODOs:
 - Remove elements  
   - ~~Webshop elements~~
-  - login button
+  - ~~login button~~
   - other elements
 - Change text
 - Add photos
