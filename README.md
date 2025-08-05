@@ -1,6 +1,8 @@
 ## TODOs:
 - Remove elements  
-  - Webshop elements
+  - ~~Webshop elements~~
+  - login button
+  - other elements
 - Change text
 - Add photos
 - Add activity timeline
