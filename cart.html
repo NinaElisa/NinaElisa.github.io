@@ -163,7 +163,7 @@
     <div class="breadcrumb-area">
         <!-- Top Breadcrumb Area -->
         <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url(img/bg-img/24.jpg);">
-            <h2>Contact US</h2>
+            <h2>Cart</h2>
         </div>
 
         <div class="container">
@@ -172,7 +172,7 @@
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="#"><i class="fa fa-home"></i> Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                            <li class="breadcrumb-item active" aria-current="page">Cart</li>
                         </ol>
                     </nav>
                 </div>
@@ -181,89 +181,98 @@
     </div>
     <!-- ##### Breadcrumb Area End ##### -->
 
-    <!-- ##### Contact Area Info Start ##### -->
-    <div class="contact-area-info section-padding-0-100">
+    <!-- ##### Cart Area Start ##### -->
+    <div class="cart-area section-padding-0-100 clearfix">
         <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <!-- Contact Thumbnail -->
-                <div class="col-12 col-md-6">
-                    <div class="contact--thumbnail">
-                        <img src="img/bg-img/25.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-5">
-                    <!-- Section Heading -->
-                    <div class="section-heading">
-                        <h2>CONTACT US</h2>
-                        <p>We are improving our services to serve you better.</p>
-                    </div>
-                    <!-- Contact Information -->
-                    <div class="contact-information">
-                        <p><span>Address:</span> 505 Silk Rd, New York</p>
-                        <p><span>Phone:</span> +1 234 122 122</p>
-                        <p><span>Email:</span> info.deercreative@gmail.com</p>
-                        <p><span>Open hours:</span> Mon - Sun: 8 AM to 9 PM</p>
-                        <p><span>Happy hours:</span> Sat: 2 PM to 4 PM</p>
+            <div class="row">
+                <div class="col-12">
+                    <div class="cart-table clearfix">
+                        <table class="table table-responsive">
+                            <thead>
+                                <tr>
+                                    <th>Products</th>
+                                    <th>Quantity</th>
+                                    <th>Price</th>
+                                    <th>TOTAL</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="cart_product_img">
+                                        <a href="#"><img src="img/bg-img/34.jpg" alt="Product"></a>
+                                        <h5>Recuerdos Plant</h5>
+                                    </td>
+                                    <td class="qty">
+                                        <div class="quantity">
+                                            <span class="qty-minus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty ) &amp;&amp; qty &gt; 1 ) effect.value--;return false;"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                                            <input type="number" class="qty-text" id="qty" step="1" min="1" max="99" name="quantity" value="1">
+                                            <span class="qty-plus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty )) effect.value++;return false;"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                        </div>
+                                    </td>
+                                    <td class="price"><span>$9.99</span></td>
+                                    <td class="total_price"><span>$9.99</span></td>
+                                    <td class="action"><a href="#"><i class="icon_close"></i></a></td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <!-- ##### Contact Area Info End ##### -->
 
-    <!-- ##### Contact Area Start ##### -->
-    <section class="contact-area">
-        <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-12 col-lg-5">
-                    <!-- Section Heading -->
-                    <div class="section-heading">
-                        <h2>GET IN TOUCH</h2>
-                        <p>Send us a message, we will call back later</p>
-                    </div>
-                    <!-- Contact Form Area -->
-                    <div class="contact-form-area mb-100">
+            <div class="row">
+
+                <!-- Coupon Discount -->
+                <div class="col-12 col-lg-6">
+                    <div class="coupon-discount mt-70">
+                        <h5>COUPON DISCOUNT</h5>
+                        <p>Coupons can be applied in the cart prior to checkout. Add an eligible item from the booth of the seller that created the coupon code to your cart. Click the green "Apply code" button to add the coupon to your order. The order total will update to indicate the savings specific to the coupon code entered.</p>
                         <form action="#" method="post">
-                            <div class="row">
-                                <div class="col-12 col-md-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="contact-name" placeholder="Your Name">
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" id="contact-email" placeholder="Your Email">
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="contact-subject" placeholder="Subject">
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <textarea class="form-control" name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <button type="submit" class="btn alazea-btn mt-15">Send Message</button>
-                                </div>
-                            </div>
+                            <input type="text" name="coupon-code" placeholder="Enter your coupon code">
+                            <button type="submit">APPLY COUPON</button>
                         </form>
                     </div>
                 </div>
 
+                <!-- Cart Totals -->
                 <div class="col-12 col-lg-6">
-                    <!-- Google Maps -->
-                    <div class="map-area mb-100">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22236.40558254599!2d-118.25292394686001!3d34.057682914027104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2z4Kay4Ka4IOCmj-CmnuCnjeCmnOCnh-CmsuCnh-CmuCwg4KaV4KeN4Kav4Ka-4Kay4Ka_4Kar4KeL4Kaw4KeN4Kao4Ka_4Kav4Ka84Ka-LCDgpq7gpr7gprDgp43gppXgpr_gpqgg4Kav4KeB4KaV4KeN4Kak4Kaw4Ka-4Ka34KeN4Kaf4KeN4Kaw!5e0!3m2!1sbn!2sbd!4v1532328708137" allowfullscreen></iframe>
+                    <div class="cart-totals-area mt-70">
+                        <h5 class="title--">Cart Total</h5>
+                        <div class="subtotal d-flex justify-content-between">
+                            <h5>Subtotal</h5>
+                            <h5>$9.99</h5>
+                        </div>
+                        <div class="shipping d-flex justify-content-between">
+                            <h5>Shipping</h5>
+                            <div class="shipping-address">
+                                <form action="#" method="post">
+                                    <select class="custom-select">
+                                      <option selected>Country</option>
+                                      <option value="1">USA</option>
+                                      <option value="2">Latvia</option>
+                                      <option value="3">Japan</option>
+                                      <option value="4">Bangladesh</option>
+                                    </select>
+                                    <input type="text" name="shipping-text" id="shipping-text" placeholder="State">
+                                    <input type="text" name="shipping-zip" id="shipping-zip" placeholder="ZIP">
+                                    <button type="submit">Update Total</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="total d-flex justify-content-between">
+                            <h5>Total</h5>
+                            <h5>$9.99</h5>
+                        </div>
+                        <div class="checkout-btn">
+                            <a href="#" class="btn alazea-btn w-100">PROCEED TO CHECKOUT</a>
+                        </div>
                     </div>
                 </div>
             </div>
+
         </div>
-    </section>
-    <!-- ##### Contact Area End ##### -->
+    </div>
+    <!-- ##### Cart Area End ##### -->
 
     <!-- ##### Footer Area Start ##### -->
     <footer class="footer-area bg-img" style="background-image: url(img/bg-img/3.jpg);">

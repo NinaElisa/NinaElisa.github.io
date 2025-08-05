@@ -163,7 +163,7 @@
     <div class="breadcrumb-area">
         <!-- Top Breadcrumb Area -->
         <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url(img/bg-img/24.jpg);">
-            <h2>Contact US</h2>
+            <h2>Checkout</h2>
         </div>
 
         <div class="container">
@@ -172,7 +172,7 @@
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="#"><i class="fa fa-home"></i> Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                            <li class="breadcrumb-item active" aria-current="page">Checkout</li>
                         </ol>
                     </nav>
                 </div>
@@ -181,89 +181,120 @@
     </div>
     <!-- ##### Breadcrumb Area End ##### -->
 
-    <!-- ##### Contact Area Info Start ##### -->
-    <div class="contact-area-info section-padding-0-100">
+    <!-- ##### Checkout Area Start ##### -->
+    <div class="checkout_area mb-100">
         <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <!-- Contact Thumbnail -->
-                <div class="col-12 col-md-6">
-                    <div class="contact--thumbnail">
-                        <img src="img/bg-img/25.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-5">
-                    <!-- Section Heading -->
-                    <div class="section-heading">
-                        <h2>CONTACT US</h2>
-                        <p>We are improving our services to serve you better.</p>
-                    </div>
-                    <!-- Contact Information -->
-                    <div class="contact-information">
-                        <p><span>Address:</span> 505 Silk Rd, New York</p>
-                        <p><span>Phone:</span> +1 234 122 122</p>
-                        <p><span>Email:</span> info.deercreative@gmail.com</p>
-                        <p><span>Open hours:</span> Mon - Sun: 8 AM to 9 PM</p>
-                        <p><span>Happy hours:</span> Sat: 2 PM to 4 PM</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ##### Contact Area Info End ##### -->
-
-    <!-- ##### Contact Area Start ##### -->
-    <section class="contact-area">
-        <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-12 col-lg-5">
-                    <!-- Section Heading -->
-                    <div class="section-heading">
-                        <h2>GET IN TOUCH</h2>
-                        <p>Send us a message, we will call back later</p>
-                    </div>
-                    <!-- Contact Form Area -->
-                    <div class="contact-form-area mb-100">
+            <div class="row justify-content-between">
+                <div class="col-12 col-lg-7">
+                    <div class="checkout_details_area clearfix">
+                        <h5>Billing Details</h5>
                         <form action="#" method="post">
                             <div class="row">
-                                <div class="col-12 col-md-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="contact-name" placeholder="Your Name">
-                                    </div>
+                                <div class="col-md-6 mb-4">
+                                    <label for="first_name">First Name *</label>
+                                    <input type="text" class="form-control" id="first_name" value="" required>
                                 </div>
-                                <div class="col-12 col-md-6">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" id="contact-email" placeholder="Your Email">
-                                    </div>
+                                <div class="col-md-6 mb-4">
+                                    <label for="last_name">Last Name *</label>
+                                    <input type="text" class="form-control" id="last_name" value="" required>
+                                </div>
+                                <div class="col-12 mb-4">
+                                    <label for="email_address">Email Address *</label>
+                                    <input type="email" class="form-control" id="email_address" value="">
+                                </div>
+                                <div class="col-12 mb-4">
+                                    <label for="phone_number">Phone Number *</label>
+                                    <input type="number" class="form-control" id="phone_number" min="0" value="">
+                                </div>
+                                <div class="col-12 mb-4">
+                                    <label for="company">Company Name</label>
+                                    <input type="text" class="form-control" id="company" value="">
+                                </div>
+                                <div class="col-12 mb-4">
+                                    <label for="company">Address *</label>
+                                    <input type="text" class="form-control" id="address" value="">
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <label for="city">Town/City *</label>
+                                    <input type="text" class="form-control" id="city" value="">
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <label for="state">State/Province *</label>
+                                    <input type="text" class="form-control" id="state" value="">
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <label for="country">Country</label>
+                                    <select class="custom-select d-block w-100" id="country">
+                                        <option value="usa">United States</option>
+                                        <option value="uk">United Kingdom</option>
+                                        <option value="ger">Germany</option>
+                                        <option value="fra">France</option>
+                                        <option value="ind">India</option>
+                                        <option value="aus">Australia</option>
+                                        <option value="bra">Brazil</option>
+                                        <option value="cana">Canada</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <label for="postcode">Postcode/Zip</label>
+                                    <input type="text" class="form-control" id="postcode" value="">
+                                </div>
+                                <div class="col-md-12 mb-4">
+                                    <label for="order-notes">Order Notes</label>
+                                    <textarea class="form-control" id="order-notes" cols="30" rows="10" placeholder="Notes about your order, e.g. special notes for delivery."></textarea>
                                 </div>
                                 <div class="col-12">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="contact-subject" placeholder="Subject">
+                                    <div class="d-flex align-items-center">
+                                        <!-- Single Checkbox -->
+                                        <div class="custom-control custom-checkbox d-flex align-items-center mr-30">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                            <label class="custom-control-label" for="customCheck1">Ship to a different address?</label>
+                                        </div>
+                                        <!-- Single Checkbox -->
+                                        <div class="custom-control custom-checkbox d-flex align-items-center">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                            <label class="custom-control-label" for="customCheck2">Create an account?</label>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <textarea class="form-control" name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <button type="submit" class="btn alazea-btn mt-15">Send Message</button>
                                 </div>
                             </div>
                         </form>
                     </div>
                 </div>
 
-                <div class="col-12 col-lg-6">
-                    <!-- Google Maps -->
-                    <div class="map-area mb-100">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22236.40558254599!2d-118.25292394686001!3d34.057682914027104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2z4Kay4Ka4IOCmj-CmnuCnjeCmnOCnh-CmsuCnh-CmuCwg4KaV4KeN4Kav4Ka-4Kay4Ka_4Kar4KeL4Kaw4KeN4Kao4Ka_4Kav4Ka84Ka-LCDgpq7gpr7gprDgp43gppXgpr_gpqgg4Kav4KeB4KaV4KeN4Kak4Kaw4Ka-4Ka34KeN4Kaf4KeN4Kaw!5e0!3m2!1sbn!2sbd!4v1532328708137" allowfullscreen></iframe>
+                <div class="col-12 col-lg-4">
+                    <div class="checkout-content">
+                        <h5 class="title--">Your Order</h5>
+                        <div class="products">
+                            <div class="products-data">
+                                <h5>Products:</h5>
+                                <div class="single-products d-flex justify-content-between align-items-center">
+                                    <p>Recuerdos Plant</p>
+                                    <h5>$9.99</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="subtotal d-flex justify-content-between align-items-center">
+                            <h5>Subtotal</h5>
+                            <h5>$9.99</h5>
+                        </div>
+                        <div class="shipping d-flex justify-content-between align-items-center">
+                            <h5>Shipping</h5>
+                            <h5>$3.00</h5>
+                        </div>
+                        <div class="order-total d-flex justify-content-between align-items-center">
+                            <h5>Order Total</h5>
+                            <h5>$12.99</h5>
+                        </div>
+                        <div class="checkout-btn mt-30">
+                            <a href="#" class="btn alazea-btn w-100">Place Order</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- ##### Contact Area End ##### -->
+    </div>
+    <!-- ##### Checkout Area End ##### -->
 
     <!-- ##### Footer Area Start ##### -->
     <footer class="footer-area bg-img" style="background-image: url(img/bg-img/3.jpg);">
