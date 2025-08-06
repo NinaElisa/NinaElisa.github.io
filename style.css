@@ -394,10 +394,10 @@ img {
     transition-duration: 200ms; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .header-area .alazea-main-menu .classy-navbar .classy-menu {
-        background-color: #111111; } }
+        background-color: #270900; } }
     @media only screen and (max-width: 767px) {
       .header-area .alazea-main-menu .classy-navbar .classy-menu {
-        background-color: #111111; } }
+        background-color: #270900; } }
     .header-area .alazea-main-menu .classy-nav-container {
       background-color: transparent; }
     .header-area .alazea-main-menu .classy-navbar {
