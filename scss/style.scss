@@ -36,7 +36,7 @@ Version: - v1.0
 
 body {
     font-family: $fonts;
-    font-size: 16px;
+    font-size: 20px;
     color: $text-color;
 }
 
@@ -53,7 +53,7 @@ h6 {
 
 p {
     color: $text-color;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.7;
     font-weight: 400;
 }
@@ -207,7 +207,7 @@ img {
         }
     }
     p {
-        font-size: 16px;
+        font-size: 20px;
         color: $text-color;
         margin-bottom: 0;
     }
@@ -359,14 +359,14 @@ img {
     border: 2px solid $pri-color;
     border-radius: 2px;
     padding: 0 20px;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 42px;
     text-transform: uppercase;
     font-weight: 600;
     &.active,
     &:hover,
     &:focus {
-        font-size: 16px;
+        font-size: 20px;
         color: $pri-color;
         font-weight: 600;
         background-color: transparent;
@@ -518,13 +518,13 @@ img {
             }
             @media #{$breakpoint-md} {
                 background-color: $dark-color;
-                font-size: 16px;
+                font-size: 20px;
                 color: $white-color;
                 border-bottom: none;
             }
             @media #{$breakpoint-xs} {
                 background-color: $dark-color;
-                font-size: 16px;
+                font-size: 20px;
                 color: $white-color;
                 border-bottom: none;
             }
@@ -728,7 +728,7 @@ img {
                 font-size: 18px;
             }
             @media #{$breakpoint-xs} {
-                font-size: 16px;
+                font-size: 20px;
             }
         }
         a {
@@ -868,7 +868,7 @@ img {
             opacity: 0;
             @include trans-duration(500ms);
             a {
-                font-size: 16px;
+                font-size: 20px;
                 color: $white-color;
                 font-weight: 600;
                 background-color: $heading-color;
@@ -956,7 +956,7 @@ img {
             width: 180px;
             height: 40px;
             color: #51545f;
-            font-size: 16px;
+            font-size: 20px;
             background-color: #f5f5f5;
             border: 1px solid $border-color;
             border-radius: 2px;
@@ -986,7 +986,7 @@ img {
     }
     .custom-control {
         .custom-control-label {
-            font-size: 16px;
+            font-size: 20px;
             color: $text-color;
         }
     }
@@ -1010,7 +1010,7 @@ img {
             a {
                 display: block;
                 color: $text-color;
-                font-size: 16px;
+                font-size: 20px;
                 font-weight: 400;
                 margin-bottom: 5px;
                 &:hover,
@@ -1069,7 +1069,7 @@ img {
 }
 
 .shop-widget .range-price {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
     margin-top: 15px;
     text-transform: uppercase;
@@ -1283,7 +1283,7 @@ img {
 }
 
 .product_details_tab .review-rating > span {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
     color: $heading-color;
 }
@@ -1529,7 +1529,7 @@ img {
             border: 1px solid $border-color;
             background-color: #cccccc;
             color: $heading-color;
-            font-size: 16px;
+            font-size: 20px;
             text-transform: uppercase;
             cursor: pointer;
             font-weight: 500;
@@ -1976,7 +1976,7 @@ img {
         background-color: transparent;
         padding: 0 20px;
         @media #{$breakpoint-xs} {
-            font-size: 16px;
+            font-size: 20px;
             padding: 0 5px;
         }
         &:hover,
@@ -2244,7 +2244,7 @@ img {
                 a {
                     display: block;
                     color: $secondary-color;
-                    font-size: 16px;
+                    font-size: 20px;
                     font-weight: 400;
                     margin-bottom: 11px;
                     &:hover,
@@ -2271,7 +2271,7 @@ img {
                 a {
                     display: block;
                     color: $secondary-color;
-                    font-size: 16px;
+                    font-size: 20px;
                     font-weight: 400;
                     &:hover,
                     &:focus {
@@ -2413,12 +2413,12 @@ img {
         padding-right: 0;
         background-color: transparent;
         .breadcrumb-item {
-            font-size: 16px;
+            font-size: 20px;
             color: $secondary-color;
             text-transform: capitalize;
             a {
                 text-transform: capitalize;
-                font-size: 16px;
+                font-size: 20px;
                 color: $heading-color;
                 &:hover,
                 &:focus {
@@ -2482,7 +2482,7 @@ img {
             }
         }
         .post-excerpt {
-            font-size: 16px;
+            font-size: 20px;
             color: $text-color;
             margin-bottom: 0;
         }
@@ -2605,7 +2605,7 @@ img {
                     margin: 0 0 10px 0;
                 }
                 p {
-                    font-size: 16px;
+                    font-size: 20px;
                     margin-bottom: 5px;
                 }
                 .comment-date {
@@ -2708,7 +2708,7 @@ img {
         }
         p {
             margin-bottom: 0;
-            font-size: 16px;
+            font-size: 20px;
             line-height: 1.6;
         }
     }
@@ -2834,7 +2834,7 @@ img {
             a {
                 display: block;
                 color: $text-color;
-                font-size: 16px;
+                font-size: 20px;
                 font-weight: 400;
                 margin-bottom: 5px;
                 &:hover,
@@ -3020,7 +3020,7 @@ img {
         height: 45px;
         width: 100%;
         background-color: $white-color;
-        font-size: 16px;
+        font-size: 20px;
         margin-bottom: 15px;
         border: 1px solid #e1e1e1;
         border-radius: 2px;

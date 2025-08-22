@@ -23,7 +23,7 @@ Version: - v1.0
 
 body {
   font-family: "Dosis", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   color: #707070; }
 
 h1,
@@ -38,7 +38,7 @@ h6 {
 
 p {
   color: #707070;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.7;
   font-weight: 400; }
 
@@ -159,7 +159,7 @@ img {
       .section-heading h2 {
         font-size: 24px; } }
   .section-heading p {
-    font-size: 16px;
+    font-size: 20px;
     color: #707070;
     margin-bottom: 0; }
 
@@ -289,12 +289,12 @@ img {
   border: 2px solid #70c745;
   border-radius: 2px;
   padding: 0 20px;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 42px;
   text-transform: uppercase;
   font-weight: 600; }
   .alazea-btn.active, .alazea-btn:hover, .alazea-btn:focus {
-    font-size: 16px;
+    font-size: 20px;
     color: #70c745;
     font-weight: 600;
     background-color: transparent;
@@ -421,13 +421,13 @@ img {
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .header-area .alazea-main-menu .classynav ul li a {
           background-color: #160500;;
-          font-size: 16px;
+          font-size: 20px;
           color: #ffffff;
           border-bottom: none; } }
       @media only screen and (max-width: 767px) {
         .header-area .alazea-main-menu .classynav ul li a {
           background-color: #160500;;
-          font-size: 16px;
+          font-size: 20px;
           color: #ffffff;
           border-bottom: none; } }
       .header-area .alazea-main-menu .classynav ul li a:hover, .header-area .alazea-main-menu .classynav ul li a:focus {
@@ -607,7 +607,7 @@ img {
           font-size: 18px; } }
       @media only screen and (max-width: 767px) {
         .single-hero-post .hero-slides-content p {
-          font-size: 16px; } }
+          font-size: 20px; } }
     @media only screen and (max-width: 767px) {
       .single-hero-post .hero-slides-content a {
         min-width: 125px;
@@ -721,7 +721,7 @@ img {
       -webkit-transition-duration: 500ms;
       transition-duration: 500ms; }
       .single-product-area .product-img .product-meta a {
-        font-size: 16px;
+        font-size: 20px;
         color: #ffffff;
         font-weight: 600;
         background-color: #303030;
@@ -790,7 +790,7 @@ img {
       width: 180px;
       height: 40px;
       color: #51545f;
-      font-size: 16px;
+      font-size: 20px;
       background-color: #f5f5f5;
       border: 1px solid #ebebeb;
       border-radius: 2px;
@@ -814,7 +814,7 @@ img {
     text-transform: uppercase;
     margin-bottom: 20px; }
   .shop-widget .custom-control .custom-control-label {
-    font-size: 16px;
+    font-size: 20px;
     color: #707070; }
   .shop-widget .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
     background-color: #70c745; }
@@ -834,7 +834,7 @@ img {
     .shop-widget .single-best-seller-product .product-info a {
       display: block;
       color: #707070;
-      font-size: 16px;
+      font-size: 20px;
       font-weight: 400;
       margin-bottom: 5px; }
       .shop-widget .single-best-seller-product .product-info a:hover, .shop-widget .single-best-seller-product .product-info a:focus {
@@ -878,7 +878,7 @@ img {
   border-radius: 10px; }
 
 .shop-widget .range-price {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   margin-top: 15px;
   text-transform: uppercase; }
@@ -1073,7 +1073,7 @@ img {
   font-size: 14px; }
 
 .product_details_tab .review-rating > span {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   color: #303030; }
 
@@ -1288,7 +1288,7 @@ img {
       border: 1px solid #ebebeb;
       background-color: #cccccc;
       color: #303030;
-      font-size: 16px;
+      font-size: 20px;
       text-transform: uppercase;
       cursor: pointer;
       font-weight: 500; }
@@ -1665,7 +1665,7 @@ img {
     padding: 0 20px; }
     @media only screen and (max-width: 767px) {
       .alazea-portfolio-filter .btn {
-        font-size: 16px;
+        font-size: 20px;
         padding: 0 5px; } }
     .alazea-portfolio-filter .btn:hover, .alazea-portfolio-filter .btn:focus {
       color: #70c745;
@@ -1906,7 +1906,7 @@ img {
         .footer-area .single-footer-widget .widget-nav ul li a {
           display: block;
           color: #b7b7b7;
-          font-size: 16px;
+          font-size: 20px;
           font-weight: 400;
           margin-bottom: 11px; }
           .footer-area .single-footer-widget .widget-nav ul li a:hover, .footer-area .single-footer-widget .widget-nav ul li a:focus {
@@ -1927,7 +1927,7 @@ img {
       .footer-area .single-footer-widget .single-best-seller-product .product-info a {
         display: block;
         color: #b7b7b7;
-        font-size: 16px;
+        font-size: 20px;
         font-weight: 400; }
         .footer-area .single-footer-widget .single-best-seller-product .product-info a:hover, .footer-area .single-footer-widget .single-best-seller-product .product-info a:focus {
           color: #ffffff; }
@@ -2042,12 +2042,12 @@ img {
     padding-right: 0;
     background-color: transparent; }
     .breadcrumb-area .breadcrumb .breadcrumb-item {
-      font-size: 16px;
+      font-size: 20px;
       color: #b7b7b7;
       text-transform: capitalize; }
       .breadcrumb-area .breadcrumb .breadcrumb-item a {
         text-transform: capitalize;
-        font-size: 16px;
+        font-size: 20px;
         color: #303030; }
         .breadcrumb-area .breadcrumb .breadcrumb-item a:hover, .breadcrumb-area .breadcrumb .breadcrumb-item a:focus {
           color: #70c745; }
@@ -2094,7 +2094,7 @@ img {
       .single-blog-post .post-content .post-meta a:hover {
         color: #70c745; }
   .single-blog-post .post-content .post-excerpt {
-    font-size: 16px;
+    font-size: 20px;
     color: #707070;
     margin-bottom: 0; }
   .single-blog-post:hover .post-content .post-title h5 {
@@ -2194,7 +2194,7 @@ img {
           font-size: 20px;
           margin: 0 0 10px 0; }
         .comment_area .single_comment_area .comment-wrapper .comment-content p {
-          font-size: 16px;
+          font-size: 20px;
           margin-bottom: 5px; }
         .comment_area .single_comment_area .comment-wrapper .comment-content .comment-date {
           color: #b7b7b7;
@@ -2272,7 +2272,7 @@ img {
     margin-bottom: 15px; }
   .single-widget-area .widget-content p {
     margin-bottom: 0;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.6; }
   .single-widget-area .single-latest-post {
     position: relative;
@@ -2374,7 +2374,7 @@ img {
     .single-widget-area .single-best-seller-product .product-info a {
       display: block;
       color: #707070;
-      font-size: 16px;
+      font-size: 20px;
       font-weight: 400;
       margin-bottom: 5px; }
       .single-widget-area .single-best-seller-product .product-info a:hover, .single-widget-area .single-best-seller-product .product-info a:focus {
@@ -2515,7 +2515,7 @@ img {
   height: 45px;
   width: 100%;
   background-color: #ffffff;
-  font-size: 16px;
+  font-size: 20px;
   margin-bottom: 15px;
   border: 1px solid #e1e1e1;
   border-radius: 2px;
