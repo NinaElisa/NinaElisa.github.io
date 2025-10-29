@@ -48,8 +48,8 @@
             nav: false,
             dots: true,
             autoplay: true,
-            autoplayTimeout: 5000,
-            smartSpeed: 700,
+            autoplayTimeout: 10000,
+            smartSpeed: 7000,
             animateIn: 'fadeIn',
             animateOut: 'fadeOut'
         });
