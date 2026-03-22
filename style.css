@@ -427,7 +427,7 @@ img {
       @media only screen and (max-width: 767px) {
         .header-area .alazea-main-menu .classynav ul li a {
           background-color: #160500;;
-          font-size: 20px;
+          font-size: 12px;
           color: #ffffff;
           border-bottom: none; } }
       .header-area .alazea-main-menu .classynav ul li a:hover, .header-area .alazea-main-menu .classynav ul li a:focus {
