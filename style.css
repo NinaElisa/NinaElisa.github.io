@@ -421,16 +421,14 @@ img {
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .header-area .alazea-main-menu .classynav ul li a {
           background-color: #160500;;
-          font-size: 15px;
+          font-size: 20px;
           color: #ffffff;
-          padding: 0 17px;
           border-bottom: none; } }
       @media only screen and (max-width: 767px) {
         .header-area .alazea-main-menu .classynav ul li a {
           background-color: #160500;;
-          font-size: 8px;
+          font-size: 20px;
           color: #ffffff;
-          padding: 0 10px;
           border-bottom: none; } }
       .header-area .alazea-main-menu .classynav ul li a:hover, .header-area .alazea-main-menu .classynav ul li a:focus {
         color: #70c745; }
